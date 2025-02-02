@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 317a5d4e9c9b01b41b10372ba4678443, type: 3}
+  m_Name: Ray
+  m_EditorClassIdentifier: 
+  weaponName: Ray Gun
+  damage: 10
+  range: 200
+  fireRate: 0.1
+  reloadTime: 3
+  maxAmmo: 100
+  currentAmmo: 0
+  totalAmmo: 300
+  mustBeTotal: 300
+  prefab: {fileID: 7301332423447699520, guid: b61fa61d80d4a0f49812cd7165a48a30, type: 3}
+  shootSound: {fileID: 8300000, guid: 06ada5590eba8d6489b36c6f3c54ff78, type: 3}
+  reloadSound: {fileID: 8300000, guid: 78419f98379502c4dbfb2774bc94e7c1, type: 3}
